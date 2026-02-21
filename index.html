@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playground</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'DM Sans', sans-serif;
+        background: #f9f9f7;
+        color: #1a1a1a;
+        min-height: 100vh;
+        padding: 4rem 3rem;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      header {
+        margin-bottom: 5rem;
+      }
+
+      .site-name {
+        font-size: 0.8rem;
+        font-family: 'DM Mono', monospace;
+        color: #999;
+        letter-spacing: 0.05em;
+      }
+
+      .hero {
+        margin-bottom: 3rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.3;
+        color: #1a1a1a;
+        margin-bottom: 0.6rem;
+      }
+
+      .sub {
+        font-size: 0.95rem;
+        color: #888;
+        line-height: 1.6;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid #e5e5e3;
+        margin-bottom: 2rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1px;
+        background: #e5e5e3;
+        border: 1px solid #e5e5e3;
+      }
+
+      .card {
+        background: #f9f9f7;
+        padding: 2rem;
+        text-decoration: none;
+        color: inherit;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        transition: background 0.2s;
+      }
+
+      .card:hover {
+        background: #fff;
+      }
+
+      .card-name {
+        font-size: 1.05rem;
+        font-weight: 500;
+        color: #1a1a1a;
+      }
+
+      .card-desc {
+        font-size: 0.85rem;
+        color: #888;
+        line-height: 1.5;
+        flex: 1;
+      }
+
+      .card-meta {
+        font-family: 'DM Mono', monospace;
+        font-size: 0.7rem;
+        color: #bbb;
+        margin-top: 1rem;
+      }
+
+      footer {
+        margin-top: 4rem;
+        font-family: 'DM Mono', monospace;
+        font-size: 0.72rem;
+        color: #bbb;
+      }
+
+      @media (max-width: 500px) {
+        body {
+          padding: 2.5rem 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="site-name">playground</span>
+    </header>
+
+    <section class="hero">
+      <h1>Things I'm building.</h1>
+      <p class="sub">A simple collection of projects and experiments.</p>
+    </section>
+
+    <hr />
+
+    <div class="grid">
+      <a class="card" href="#">
+        <div class="card-name">Yolde</div>
+        <div class="card-desc">An app built with care. Clean and focused.</div>
+        <div class="card-meta" style="margin-top: 0.3rem; color: #ccc">
+          Angular · NestJS · PostgreSQL
+        </div>
+      </a>
+    </div>
+
+    <footer>© 2026</footer>
+  </body>
+</html>
