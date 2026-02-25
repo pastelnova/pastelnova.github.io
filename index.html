@@ -63,26 +63,49 @@
       }
 
       .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-        gap: 1px;
-        background: #e5e5e3;
-        border: 1px solid #e5e5e3;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
       }
 
       .card {
-        background: #f9f9f7;
-        padding: 2rem;
+        background: #e5e5e3;
+        padding: 1px;
         text-decoration: none;
         color: inherit;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1px;
+        transition: background 0.2s;
+        height: 160px;
+      }
+
+      .card-content {
+        background: #f9f9f7;
+        padding: 2rem;
         display: flex;
         flex-direction: column;
         gap: 0.4rem;
-        transition: background 0.2s;
       }
 
-      .card:hover {
+      .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        opacity: 0.5;
+        filter: grayscale(100%);
+        transition:
+          opacity 0.2s,
+          filter 0.2s;
+      }
+
+      .card:hover .card-content {
         background: #fff;
+      }
+
+      .card:hover img {
+        opacity: 0.6;
       }
 
       .card-name {
@@ -133,11 +156,19 @@
 
     <div class="grid">
       <a class="card" href="https://pastelnova.github.io/yolde-app">
-        <div class="card-name">Yolde</div>
-        <div class="card-desc">An app built with care. Clean and focused.</div>
-        <div class="card-meta" style="margin-top: 0.3rem; color: #ccc">
-          Angular · NestJS · PostgreSQL
+        <div class="card-content">
+          <div class="card-name">Yolde</div>
+          <div class="card-desc">
+            An app built with care. Clean and focused.
+          </div>
+          <div class="card-meta" style="margin-top: 0.3rem; color: #ccc">
+            Angular · NestJS · PostgreSQL
+          </div>
         </div>
+        <img
+          src="https://xftkogzuxggdyvilvdlk.supabase.co/storage/v1/object/public/images/Screenshot%202026-02-25%20at%2023.06.29.png"
+          alt="Yolde screenshot"
+        />
       </a>
     </div>
 
