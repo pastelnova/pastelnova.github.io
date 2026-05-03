@@ -22,11 +22,6 @@ A minimal personal site showcasing projects and experiments.
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 
-## 📊 github stats
-
-![Giorgiana's GitHub stats](https://github-readme-stats.vercel.app/api?username=pastelnova&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pastelnova&layout=compact&theme=default&hide_border=true)
-
 ## 🔗 connect
 
 [![Website](https://img.shields.io/badge/Website-giorgiana.li-000?style=flat&logo=safari&logoColor=white)](https://giorgiana.li)
