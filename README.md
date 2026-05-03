@@ -2,44 +2,34 @@
 
 A minimal personal site showcasing projects and experiments.
 
-🔗 [giorgiana.li](https://giorgiana.li)
+🌐 [giorgiana.li](https://giorgiana.li)
 
 ---
 
-## projects
+## 🛠 currently building
 
-| Name  | Stack                          | Status |
-| ----- | ------------------------------ | ------ |
-| Yolde | Angular 21, NestJS, PostgreSQL | Live   |
+- **[Devstash](https://devstash.giorgiana.li/)** — a developer knowledge hub, built entirely with Claude Code.
+- **[Yolde](https://giorgiana.li/yolde-app)** — an app built with care.
 
----
+## 🧰 tech i reach for
 
-## about the site
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 
-A single-page HTML/CSS site. No frameworks, no build step — just a file.
+## 📊 github stats
 
-## run locally
+![Giorgiana's GitHub stats](https://github-readme-stats.vercel.app/api?username=pastelnova&show_icons=true&theme=default&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pastelnova&layout=compact&theme=default&hide_border=true)
 
-```bash
-open index.html
-```
+## 🔗 connect
 
-Or just drag the file into your browser.
-
-## add a new project
-
-In `index.html`, find the `.grid` section and copy a card block:
-
-```html
-<a class="card" href="#">
-  <div class="card-name">Project Name</div>
-  <div class="card-desc">Short description.</div>
-  <div class="card-meta">type · status</div>
-  <div class="card-meta" style="margin-top:0.3rem; color:#ccc;">
-    Stack · Here
-  </div>
-</a>
-```
+[![Website](https://img.shields.io/badge/Website-giorgiana.li-000?style=flat&logo=safari&logoColor=white)](https://giorgiana.li)
 
 ---
 
